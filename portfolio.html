@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta charset for encoding and metadata for information -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="Personalized Portfolio">
+    <meta name="author" content="Nirali Shah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Icon of the web page can be added here -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/globe.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Bootstrap 3 / jquery can be added here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	
+	<!--  Internal css None can be added here -->
+	
+	
+	<!--  External css & Js can be added here -->
+	<link rel="stylesheet" href="css/styleMyPortfolio.css">
+	<link rel="stylesheet" href="css/responsiveMyPortfolio.css">
+	<script src="js/styleMyPortfolio.js"></script>
+	
+	<!-- Title of the web page can be changed here -->
+	 <title>Portfolio</title>
+</head>
+
+<body>
+	<!-- Box shadow and page border is set here --> 
+	<div class="page__layout">
+	
+	<!-- Web page Header and Logo can be changed here -->
+	<header>
+		<div class="header__inner">
+			<!-- Header Logo Image can be changed here -->
+			<div id="logo__box"><img class="header__logo" src="img/globe.png" alt="logo web development"/></div>
+			<!-- Header title can be changed here -->
+			<div class="header__title">
+				<h1 class="title__name">Nirali Shah</h1>
+				<h4 class="title__position">Web-Developer<span class="flag__country"></span></h4>
+				<h5 class="title__contact">xxx-xxx-xxxx | <a href="mailto:ntshah.it@gmail.com?Subject=Hello%20again" target="_top">ntshah.it@gmail.com</a></h5>
+			</div>
+			<!-- Menu Icon for cell phone / hamburger icon  -->
+			<div class="header__menu"><i class="fa fa-bars menu"></i></div>
+      </div>
+	  <!-- Header outline layout -->
+	  <div class="header__outline"></div>
+	</header>
+	
+	<!-- Navigation Links can be changed here, also make sure to update content in js file -->
+	<nav class="nav">
+      <ul class="nav__list">
+	    <li class="nav__item"><a id="nav_item_1" href="#">About Me</a></li>
+        <li class="nav__item"><a id="nav_item_2" href="portfolio.html">Degree</a></li>
+        <li class="nav__item"><a id="nav_item_3" href="#">Experience</a></li>
+        <li class="nav__item"><a id="nav_item_4" href="#">Tools</a></li>
+      </ul>
+    </nav>
+	
+	<!-- Main Content -->
+	<main>
+		<!-- Introduction and Banner Graphics -->
+		<section class="banner">
+			<div class="banner__division content">
+				<!-- Banner Introduction -->
+				<div class="banner__description">
+					<!-- Introduction image can be changed here -->
+					<h3 class="banner__education"><img class="degree__image" src="img/degree.png" alt="Degree"/>Degree</h3>
+					<!-- Change introduction here -->
+					 <dl>
+						<dt id="item__1" class="education__item">Masters in Information Technology</dt>
+							<dd id="sub_item_11" class="education__subitem"><span class="education_item_bold">Major : </span>Software Engineering</dd>
+							<dd id="sub_item_12" class="education__subitem"><span class="education_item_bold">Minor : </span>Web-Development</dd>
+						<dt id="item__2" class="education__item">Bachelors in Information Technology</dt>
+							<dd id="sub_item_21" class="education__subitem"><span class="education_item_bold">Major : </span>Software Analysis, Designing & Development</dd>
+							<dd id="sub_item_22" class="education__subitem"><span class="education_item_bold">Minor : </span>User Interface Design & Database Design</dd>
+					  </dl>
+					  <!-- add detail link here -->
+					  <div class="banner__detail">
+					    <span id="home__page"><i class="fa fa-home home__icon"></i><a href="portfolio.html">Home</a></span>
+					    <i class="fa fa-plus plus__icon"></i><a href="#">details</a>
+					  </div>
+				</div>
+				<!-- Banner Graphics can be changed here -->
+				<div class="banner__design">
+					<div class="banner__gallery1"><img class="banner__graphics" src="img/graphics.jpg" alt="graphics"/></div>
+					<div class="banner__gallery2"><img class="banner__graphics" src="img/web-dev.png" alt="web development"/></div>
+				</div>
+			</div>
+			<!-- Banner End Ribbon can be changed here -->
+			<div>
+				<img class="banner__layout" src="img/banner.png" alt="webpage banner"/>
+			</div>
+		</section>
+		
+		<!--Featured Work - change icon & title here -->
+		<section class="featured__work container-fluid">
+			<h3 class="featured__title"><img class="work__icon" src="img/settings.png" alt="movie poster"/>Featured Work</h3>
+			<!-- Used bootstrap grid to publish featured work - 
+			add featured projects link , title and image here -->
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+						<a target="_blank" href="img/movie_trailer.png"><img class="project" src="img/movie_trailer.png" alt="movie poster"/></a>
+						<h5 class="project__description">Movies-Trailer List</h5>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+						<a target="_blank" href="img/responsive_webpage.jpg"><img class="project" src="img/responsive_webpage.jpg" alt="movie poster"/></a>
+						<h5 class="project__description">Responsive Webpage</h5>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+						<a target="_blank" href="img/hospital_webpage.png"><img class="project" src="img/hospital_webpage.png" alt="movie poster"/></a>
+						<h5 class="project__description">HTML5-CSS3 Project</h5>
+				</div>
+			</div>
+			<!-- Closing featured work border --> 
+		 	 <div class="closing__border"></div>
+		</section>
+		
+		<!-- Professional Summary - Title / icon/ content change here -->
+		<article>
+			<h3 class="article__header"><img class="professional__image" src="img/professional.png" alt="Professional"/>Professional Summary</h3>
+			<!-- professional summary -->
+			<p class="article__summary">Passionate developer in building large & small-scale software and web-based applications. Looking for an opportunity,
+			where I can execute my programming skills across multiple platforms in a greater capacity.
+			Successful in working together in a team and in achieving self-directed goals.
+			Highly skilled in using new technologies and able to adapt new software and web tools quickly.</p>
+		</article>
+		
+		<!--Footer - change content here -->
+		<footer class="footer">Developer :  Nirali Shah | xxx-xxx-xxxx | <a href="mailto:ntshah.it@gmail.com?Subject=Hello%20again" target="_top">ntshah.it@gmail.com</a> 
+		<!-- validation icon -->
+		<span>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img style="border:0;width:88px;height:31px"
+				src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+				alt="Valid CSS!" />
+			</a>
+		</span>
+		</footer>
+	</main>
+</div>
+</body>
+</html>

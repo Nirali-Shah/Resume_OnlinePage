@@ -1,0 +1,306 @@
+  /* Common Declaration */
+	
+  body, html {
+    margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+  body {
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #2d3c49;
+	background-color: #fff;
+  }
+
+  h1, h2, h3, h4, h5 {
+	margin: 0; 
+  }	
+	
+  div { 
+	box-sizing: border-box;
+  }
+
+  dl, ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+
+  /*  Web page layout */
+  .page__layout {
+	margin: 2% 20% 2% 20%;
+	width: 60%;
+	border: 1px solid #e0e0e0;
+	box-shadow: 8px 5px 25px 2px #e4e7e7;
+	background-color: #fff;
+  }
+	
+
+  header, nav, section, article , footer{
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+  }
+	
+  /* header title & logo styling  */
+	
+  .header__inner {
+	width: 100%;
+	height: 110px;
+	display: inline-block;
+	background-color: #0077b3;
+  }
+	
+  #logo__box {
+	width: 20%;
+  }
+	
+  .header__logo {
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	max-width: 100%;
+	max-height: 100%;
+	width: 80px;
+	height: 80px;
+  }
+
+  .header__title {
+    float: left;
+	width: 80%;
+	margin-top: 25px;
+	text-align: right;
+	font-variant: small-caps;	
+	color: #212121;
+  }
+
+  .title__contact a {
+	padding-top: 6px;
+	font-variant: normal;	
+	font-size: 12px;
+	color: #000;
+  }	  
+  .header__outline {
+	height: 8px;
+	background-color: #79ff4d;
+  }
+
+  .header__menu {
+    visibility: hidden;
+	display: none;
+  }
+
+  .flag__country {
+	background-image: url("../img/us_flag.png");
+	background-repeat: no-repeat;
+	max-width: 100%;
+	max-height: 100%;
+	width: 20px;
+	height: 20px;
+  }
+  /* Navigation links */
+  .nav__list {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 0;
+  }
+
+  .nav__item {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 20%;
+	margin-left: 4%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	background-color: #ff5050;
+    text-align: center;
+  }
+
+  .nav a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+  }
+  
+  .nav a:hover {
+	text-decoration: underline;
+	color: #212121;
+  }
+  
+  /*  Banner Introduction and Graphics */ 
+  .banner__division {
+	display: inline-block;
+	width: 100%;
+  }
+  
+  /* Banner Description  */
+  .banner__description {
+	float: left;
+	width: 50%;
+	padding-left: 1em;
+  }
+	
+  .banner__education {
+	width: 100%;
+	padding-left: 16px;
+	border-bottom: 1px solid #e0e0e0;
+  }
+	
+  .degree__image {
+	max-width: 100%;
+	max-height: 100%;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	padding-right: 16px;
+  }
+	
+  .education__item {
+	padding: 1em;
+	font-size: 14px;
+	color: #3973ac;
+  }
+  
+  .education__subitem {
+	padding-left: 1em;
+  }
+	
+  .education_item_bold {
+	font-weight: bold;
+  }
+ 
+  /* Banner Graphics & Ribbon */
+  .banner__design {
+	display: inline-block;
+	width: 50%;
+	margin-right: 0;
+	padding-right:20px;
+  }
+  
+  .banner__gallery1 {
+	float: left;
+	width: 50%;
+  }
+  
+  .banner__gallery2 {
+	float: left;
+	width: 50%;
+  }
+  
+  .banner__graphics {
+	float: left;
+    max-height: 100%;
+	max-width: 100%;
+	width: 150px;
+	height: 250px;
+	margin: auto;
+	padding-top: 40px;
+  }
+
+  .banner__layout {
+	max-width: 100%;
+	max-height: 100%;
+    width: 100%;
+	height: 60px;
+	margin: auto;
+  }
+  
+  .banner__detail {
+	float: right;
+	margin-right: 20px;
+	padding-top:10px;
+	text-decoration: underline;
+  }
+  
+  /* Icons on each page to navigate to main page - Home */
+  .plus__icon {
+	padding-right: 6px;
+	padding-left: 10px;
+	font-size: 14px;
+  }
+
+  .home__icon {
+    padding-right: 6px;
+    font-size: 14px;
+  }	  
+  
+  #home__page{
+	display: none;
+	float: left;
+  }
+  /* Featured Work */
+  .featured__work {
+    display: block;
+  }
+  
+  .featured__title {
+    margin: 1em 0.5em 1em 1em;
+  }
+	
+  .work__icon {
+	max-height: 100%;
+	max-width: 100%;
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	padding-right: 16px;
+  }
+	
+  /* Featured Projects */
+  .project {
+	max-height: 100%;
+	max-width: 100%;
+	border: 1px solid #e0e0e0;
+	margin: auto;
+	width: 200px;
+	height: 300px;
+	display: block;
+  }
+
+  /* Featured Work Title */
+  .project__description {
+	padding: 16px;
+	text-align: center;
+	color: #ff8080;
+  }
+  
+  /* Featured Work Closing Border */
+  .closing__border {
+	border-bottom: 1px solid #e0e0e0;
+	clear: both;
+  }
+	
+  /* Professional Summary */
+  .article__header {
+	margin: 10px 10px 10px 30px;
+  }
+	
+  .professional__image {
+	max-width: 100%;
+	max-height: 100%;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	padding-right: 16px;
+  }
+  
+  .article__summary {
+	margin: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-indent: 20px;
+  }
+	
+  /* Page Footer */
+  .footer {
+	text-align: center;
+	background-color: #0077b3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+  
+  .footer a {
+	color: #2d3c49;
+  }
