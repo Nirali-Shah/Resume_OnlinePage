@@ -10,7 +10,7 @@
 	  $("#item__2").css("display", "block");
 	  $("#item__2").html("Advancement");
 	  $("#sub_item_21").css("display", "block");
-	  $("#sub_item_21").html("<p>My never ending quest helps me in learning advance features and new softwares. Also, demand for these latest technologies added valuable knowledge in my career.</p>");
+	  $("#sub_item_21").html("<p>My never ending quest helps me in learning advance features and new software. Also, demand for these latest technologies added valuable knowledge in my career.</p>");
 	  $("#sub_item_22").css("display", "none");
 	  $("#home__page").css("display", "block");
     });
@@ -21,7 +21,7 @@
     $("#nav_item_3").click(function(){
 	  $(".banner__education").html("<img class='degree__image' src='img/experience.png' alt='Experience'>Experience");
       $("#item__1").html("Web-Developer");
-	  $("#sub_item_11").html("<ul style='list-style-type:disc'><li><b>Company :</b> Kumbh Design</li><li><b>Tools :</b> HTML, CSS, JavaScript, PHP, MySQL, Joomla</li></ul><p>As a web-developer, I have been involved in developing and managing the websites from gathering customer requirements to building & launching it on the web-server. My responsibilities included front-end designing of visually appealing, user-friendly and easy to navigate sites without any broken links, whereas back-end developing included forms and flawless customer database.</p>");
+	  $("#sub_item_11").html("<ul style='list-style-type:disc'><li><b>Company :</b> Kumbh Design</li><li><b>Tools :</b> HTML, CSS, JavaScript, PHP, MySQL, Joomla</li></ul><p>As a web-developer, I was involved in developing and managing the websites from gathering customer requirements to building & launching it on the web-server. My responsibilities included front-end designing of visually appealing, user-friendly and easy to navigate sites without any broken links, whereas back-end developing included forms and flawless customer database.</p>");
 	  $("#sub_item_12").css("display", "none");
  
 	  $("#item__2").css("display", "none");
@@ -35,7 +35,7 @@
    $(document).ready(function(){
     $("#nav_item_4").click(function(){
 	  $(".banner__education").html("<img class='degree__image' src='img/tools.png' alt='Tools'>Tools");
-      $("#item__1").html("Technichal Skills");
+      $("#item__1").html("Technical Skills");
 	  $("#sub_item_11").html("<ul style='list-style-type:disc'><li><b>Programming Languages :</b> Java, Python, PHP, JavaScript, JQuery, HTML-5, CSS-3, C++, C</li><li><b>DBMS :</b> Oracle 8, MySQL, PL/SQL, MS Access</li><li><b>Applications :</b> MS Office, JIRA, Confluence, Git & GitHub, Subversion, IDE (Eclipse), IDE (MS Visual Basic 6.0), Crystal Report 8.5</li></ul>");
 	  $("#sub_item_12").css("display", "none");
 
